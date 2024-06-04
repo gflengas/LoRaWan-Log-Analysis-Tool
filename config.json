@@ -1,0 +1,25 @@
+{
+    "share_point": 
+        {
+            "user": "microsoft365_username",
+            "password": "microsoft365_password",
+            "url": "https://Company.sharepoint.com",
+            "site": "https://Company.sharepoint.com/sites/Company/",
+            "doc_library": "Shared Documents/Example Project Name" 
+        },
+    "server_credentials":
+        {
+            "SERVER_ADDRESS" : "IP",
+            "SERVER_PORT" : "PORT",
+            "SERVER_USERNAME" : "USERNAME",
+            "SERVER_PASSWORD" : "PASSWORD",
+            "REMOTE_FILE_PATH" : "Path to the log file at the server"      
+        },
+    "local_files":
+        {
+            "LOCAL_DESTINATION" : "Local destination of the log file.txt",
+            "report_file" : "Location of the report_msg.txt",
+            "webhook" : "webhook link that is connected to the channel we wont to publish report on MS Teams",
+            "logs_folder" : "Folder that every sensor log file generated will be saved"
+        }
+}
